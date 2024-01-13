@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 2px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 40px 42px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(227, 153, 4);
+    color: white;
+}
+.btn-group .button {
+  background-color: #4CAF50; /* Green */
+  border: 1px solid green;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-group .button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+  opacity: 2.0;
+  border-color: rgb(185, 108, 0);
+}
+
+.btn-group .button:hover {
+  background-color: #11df18;
+}
+</style>
+</head>
+<body>
+
+<h2>CSS Buttons</h2>
+
+<button style="background-color: aqua;">Default Button</button>
+<a href="#" class="button" style="background-image: url('/Images/12.jpg' );font-size: 15px;">Link Button</a>
+<button class="button" style="font-size: 25px;"> mainButton</button>
+<input type="button" class="button" value="Input Button" style="background-color: brown; font-size: 30px; border-radius: 50%;">
+<div class="btn-group">
+    <button class="button">Button</button>
+    <button class="button">Button</button>
+    <button class="button">Button</button>
+    <button class="button">Button</button>
+  </div>
+  
+</body>
+</html>
+
+

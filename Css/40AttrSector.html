@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+a[target]
+{
+   background-color: rgb(184, 252, 116); 
+   color: red;
+} 
+a[target="_top"]
+{
+    background-color: rgb(211, 143, 16);
+    color: blue;
+}
+[title~="flower"] {
+  border: 5px solid yellow;
+}
+[class|="top-footer"] {
+  background: yellow;
+}
+[class$="test"] {
+  background: yellow;
+}
+input[type="text"]
+{
+    width: 150px;
+  display: block;
+  margin-bottom: 10px;
+  background-color: yellow;
+}
+input[type="button"] {
+  width: 120px;
+  margin-left: 35px;
+  display: block;
+}
+</style>
+<body>
+    <h1>css attr sector
+    </h1>
+    <p>The links with a target attribute gets a color background:</p>
+    <a href="https://www.youtube.com/ " target="_top">youtube</a>
+    <a href="http://www.disney.in/" target="_blank">disny hostar</a>
+    <a href="https://www.w3schools.com/" target="_blank">w3school</a>
+    <br><br><br><br><br><br>
+    <img src="/Images/11.jpg" alt="a" title="flower" width="134" height="122">
+    <img src="/Images/12.jpg" alt="a" title="sun" width="134" height="122">
+    <img src="/Images/13.jpg" alt="a" title="flower" width="134" height="122">
+    <br><br><br><br><br><br>
+    <h2>CSS [attribute|="value"] Selector</h2>
+    <h1 class="top">hii</h1>
+    <h1 class="top-footer">hii</h1>
+    <h1 class="topcontent">hii</h1>
+    <br><br><br>
+    <h2>CSS [attribute$="value"] Selector</h2>
+    <h1 class="last-test">hii</h1>
+    <h1 class="top-test">hii</h1>
+    <h1 class="testcontent">hii</h1>
+
+    <br><br><br><br>
+    <h1>styling form</h1>
+    <form action="" name="input" method="get">
+        firstname <input type="text" name="Name" value="vaibhav" placeholder=" enter name" size="20">
+        firstname <input type="text" name="Name" value="sawant" placeholder=" enter name" size="20">
+    </form>
+</body>
+</html>

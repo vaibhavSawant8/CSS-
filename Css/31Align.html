@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .center
+    {
+        border: 2px solid black;
+        text-align: center;
+        width: 43%;
+        padding: 2px;
+        margin: auto;
+    }
+    .img{
+        /* border: 2px solid green; */
+        display: block;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    }
+    .right
+    {
+        position: absolute;
+        right: 0;
+        width: 300px;
+        border: 2px solid darkblue;
+        padding: auto;
+        float: right;
+    }
+    img
+    {
+        border: 2px solid yellow;
+    }
+    .a
+    {
+        float: left;
+    }
+    .b
+    {
+        float:right;
+        padding: 2px;
+        border: 3px solid gray;
+    }
+    /* div
+    {
+        border: 2px solid black;
+    } */
+    .clearfix
+    {
+        content: "";
+        clear: both;
+        display: table;
+        border: 3px solid yellow;
+    }
+    /* .yeduvedu
+    {
+        padding: 70px 0px;
+        height: 200px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        justify-content: center;
+        line-height: 100px;
+        border: 3px solid darkcyan;
+        text-align: center;
+    } */
+</style>
+<body>
+    <h1>center alligment alligns</h1>
+    <p>To horizontally center a block element (like div), use margin: auto;</p>
+    <div class="center">
+        <p>hello Vaibhav</p>
+    </div>
+    <div class="img">
+        <p style="text-align: left;">image</p>
+        <img src="/Images/15.jpg" alt="">
+    </div>
+    <h2>Right align with the position property</h2>
+
+<p>An example of how to right align elements with the position property:</p>
+
+<div class="right">
+  <p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
+</div>
+<br><br><br><br><br><br><br><br>
+<div>
+    <h1>without clearfix</h1>
+    <p>humko tumse pyar he plzy alexa</p>
+    <div style="border: 1px solid green;;">
+        <img class="a" src="/Images/10.jpg" alt="a" width="170px" height="170">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat sint ipsa optio quos, quam neque omnis ut voluptatum hic consequuntur exercitationem inventore molestiae illo blanditiis quae animi eveniet veritatis tenetur?
+    </div>
+    <div class="abc">
+        <br><br><br><br><br><br><br><br><br><br><br>
+
+    <h1>with clearfix</h1>
+    <p>humko tumse pyar he plzy alexa</p>
+    <div class="clearfix">
+        <img class="b" src="/Images/10.jpg" alt="a" width="170px" height="170">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat sint ipsa optio quos, quam neque omnis ut voluptatum hic consequuntur exercitationem inventore molestiae illo blanditiis quae animi eveniet veritatis tenetur?
+    </div>
+    </div>
+
+</div>
+<h2>Center vertically with padding</h2>
+
+<p>In this example, we use the padding property to center the div element vertically:</p>
+
+<!-- <div class="yeduvedu">
+  <p>I am vertically centered.</p>
+</div> -->
+
+</body>
+</html>

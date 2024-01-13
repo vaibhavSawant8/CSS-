@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        body
+        {
+            height: 100v;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* background-image: url('/Images/gradient.jpg');    */
+        }
+        .container
+        {
+            width: 100%;
+            display: grid;
+            grid-template-columns:70px 240px 70px;
+            grid-gap: 1px;
+            grid-template-rows: 50px 200px 50px;
+
+        }
+        .header
+        {
+            background-color: rgb(116, 251, 6);
+            grid-column: 1/4;
+        
+        }
+        
+    #r
+    {
+        padding: 2px;
+        margin:0px;
+        width: 100%;
+        float: right;
+        align-items: center;
+        border: 2px double black;
+    }
+        .left
+        {
+            background-color: aqua;
+            
+        }
+        .center
+        {
+            background-color: burlywood;
+        }
+        .right
+        {
+            background-color: coral;
+        }
+        .footer
+        {
+            background-color: aquamarine;
+            grid-column: 1/4;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        <div class="header">
+            <p id="c">the old post<p> <p id="b" >illustrarted weekly newspaper</p>
+        <!-- <p id="r">
+           hic pariasequatur ducimus iure?
+        </p> -->
+
+        </div> 
+         <div class="left">left</div> 
+        <div class="center">center</div> 
+        <div class="right">right</div> 
+        <div class="footer">footer</div> 
+</div>
+</body>
+</html>

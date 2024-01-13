@@ -1,0 +1,15 @@
+h1,h2,h3
+{ color: aqua;
+    text-align: center;
+    align-items: center;
+    background-color: red;
+    border: 2px solid yellow;
+}
+p
+{
+    text-align: center;
+    align-items: center;
+    color: darkorchid;
+    border: 2px solid darkkhaki;
+    background-color: rgb(159, 230, 230);
+}

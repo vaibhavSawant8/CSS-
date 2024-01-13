@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #test1
+    {
+        white-space: nowrap;
+        width: 200px;
+        border: 1px solid black;
+        overflow: hidden;
+        text-overflow: clip;
+    }
+    #test
+    {
+        white-space: nowrap;
+        width: 200px;
+        border: 1px solid black;
+        /* overflow: hidden; */
+        text-overflow:ellipsis;
+        /* overflow: visible; */
+    }
+    #test:hover
+    {
+        /* overflow:visible; */
+    }
+    .first
+    {
+        border: 2px solid black;
+        width: 30%;
+        word-wrap: break-word;
+    }
+    .second
+    {
+        border: 2px solid black;
+        width: 30%;
+    }
+    .vertical
+    {
+        /* writing-mode:vertical-rl ; */
+        writing-mode:vertical-lr ;
+        writing-mode:horizontal-tb;
+    }
+</style>
+<body>
+    <div>
+        <h1>the text overflow property</h1>
+        <p>the following two paragraphs shows </p>
+        <h2>text overflow :clip:</h2>
+        <p id="test1">This is some long text that will not fit in the box</p>
+        <h2>text overflow :ellipse</h2>
+        <p id="test">This is some long text that will not fit in the box</p>
+    </div>
+    <div>
+        <h1>the word break property</h1>
+        <p class="first">Lorem ipsum dol-or sit amet consectetur, adipisicing elit. Accusantium id ab temporibus officiis. Culp off-icia esse molestiae, veniam error qu-is porro cupiditate facere enim impedit? Delectus ea qui doloremque!</p>
+        <p class="second">Lorem ipsum dolorsit amet consectetur, adipisi-cing elit. Accusantium id ab temporibus officiis. Culpa offi-cia esse molestiae, veniam error quis porro cupiditate facere enim impedit? Delectus ea qui doloremque!</p>
+        <p>gbdkjlsj <span class="vertical">hieyy</span>jhf</p>
+    </div>
+</body>
+</html>

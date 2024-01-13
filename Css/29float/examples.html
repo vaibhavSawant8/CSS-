@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+  box-sizing: border-box;
+  
+}
+.body{background-color: white;}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.clearfix::after::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.clearfix::after::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.header,footer
+{
+    background-color:grey;
+    color: white;
+    padding: 10px;
+
+}
+.column
+{
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.menu
+{
+    width: 25%;
+}
+.content
+{width: 75%;}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 2px;
+  margin-bottom: 8px;
+  background-color: #33b5e5;
+  color: #a76a6a;
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+.footer
+{
+    background-color: grey;
+    padding: 25px;
+}
+
+</style>
+<body>
+    <h1>grid box</h1>
+    <p>float box side bt</p>
+    <div class="clearfix">
+    <div class="box" style=" background-color: rgba(237, 32, 32, 0.761); width: 20%; padding: 20px;float: left;">
+        <p>some text inside the box</p>
+    </div>
+    <div class="clearify" style=" background-color: rgba(180, 53, 53, 0.6); width: 20%; padding: 20px;float: left;">
+        <p>some text inside the box</p>
+    </div>
+    <div class="syntx" style=" background-color: rgba(194, 68, 68, 0.6); width: 20%; padding: 20px;float: left;">
+        <p>some text inside the box</p>
+    </div>
+    <br>
+    <h1> <br><br>images side by side</h1><br>
+    <p>float imagess side by side</p><br>
+    <div class="clearfix">
+        <div class="img_container">
+            <img src="/Images/1.jpg" alt="hh" style="width: 30%; float: left; padding: 7px;">
+        </div>
+        <div class="img_container">
+            <img src="/Images/2.jpg" alt="hh" style="width: 30%; float: left; padding: 7px;">
+        </div>
+        <div class="img_container">
+            <img src="/Images/3.jpg" alt="hh" style="width: 30%; float: left; padding: 7px;">
+        </div>
+    </div>
+    <br><br>
+    <h1>equal hieght boxes</h1>
+    <p>floating boxes wiyj equal heights</p>
+    <div class="clearfix">
+
+        <div class="box" style="float: left; padding: 0px; width: 50%; background-color: #bbb; height: 300px;">
+            some text
+        </div>
+        <div class="box" style="float: left; padding: 0px; width: 50%; background-color: #ccc; height: 300px;">
+            some text some text some text
+        </div>
+        <p>
+            <strong>note</strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet maxime quisquam magnam, dolore, dignissimos eaque eum aspernatur ad asperiores quos iusto nemo quae reprehenderit nostrum temporibus doloribus! Cumque, nobis perspiciatis?
+        </p>
+        
+
+    </div>
+    
+    <h1>navigation menu</h1>
+    <div class="header">
+        india
+    </div>
+    <div class="clearfix">
+        <div class="column menu">
+        <ul>
+            <li>delhi</li>
+            <li>food</li>
+            <li>travel</li>
+        </ul>
+    </div>
+    <div class="colummn_contain">
+        <h1>the city</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In eum soluta blanditiis iusto dolore sapiente libero tenetur delectus, qui explicabo molestias alias ab exercitationem aut obcaecati reiciendis corrupti ipsa consequatur!</p>
+    </div>
+    <div class="footer">footer text</div>
+</div>
+</div>
+</body>
+</html>

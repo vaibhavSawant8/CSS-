@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .m
+    {
+        width: 180px;
+        height: 180px;
+        background-color: black;
+        animation-name: vaibhav;
+        position: relative;
+        animation-duration: 10s;
+        animation-iteration-count: 3;
+        /* infinite */
+        animation-direction: alternate-reverse;
+        animation-delay: 1s;
+        /* animation-fill-mode: forwards; */
+    }
+    @keyframes vaibhav{
+        /* from{background-color: red;} */
+        /* to{background-color: aqua;} */
+        0%{background-image: url('/Images/4.jpg' );left:0px; top:0px;animation-timing-function: linear;}
+        25%{background-image: url('/Images/16.jpg');left:200px; bottom:7px; animation-timing-function: ease;}
+        50%{background-image: url('/Images/14.jpg');left:20px; left:0px;animation-timing-function: ease-in;}
+        75%{background-image: url('/Images/10.jpg');left:0px; top:50px;animation-timing-function: ease-in-out;}
+        85%{background-image: url('/Images/1.jpg');left:200px; top:50px;animation-timing-function: ease-out;}
+        
+    }
+ 
+</style>
+<body>
+    <h1>css Animation</h1>
+    <div class="m"></div>
+        <p><b>note</b>trfnyyc fb  hjuft </p>
+   
+</body>
+</html>

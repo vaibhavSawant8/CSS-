@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .a {
+        
+        /* background-color: aqua; */
+    }
+    /* div p
+    {
+        background-color: yellow;
+    } */
+    /* div>p
+    {
+        background-color:red;
+    }
+    div+p
+    {
+        background-color:red;
+    } */
+    div~p
+    {
+        background-color: green;
+    }
+</style>
+<body>
+    
+        <h1>Descendant selector</h1>
+        <p>The descendant selector matches all elements that are descendants of a specified element.</p>
+
+        <div class="a">
+             <p>Paragraph 1 in the div.</p>
+             <p>Paragraph 2 in the div.</p>
+             <section><p>Paragraph 3 in the div.</p></section>
+             <p>Paragraph 4. Not in a div.</p>
+        </div>
+        
+        <p>Paragraph 5. Not in a div.</p>
+        <code>this is a code</code>
+        <p>Paragraph 6. Not in a div.</p>
+        <div>
+            <p>paragrap 7 in a div</p>
+        </div>
+        <p>Paragraph 8. After a div.</p>
+        <p>Paragraph 9. After a div.</p>
+</body>
+</html>

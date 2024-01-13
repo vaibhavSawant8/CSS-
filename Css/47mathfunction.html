@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        position: absolute;
+        left: 50px;
+        width: calc(50%-100px);
+        border: 2px double maroon;
+        padding: 5px;
+        background-color: antiquewhite;
+    }
+    #a
+    {
+        background-color: aqua;
+        height: 100px;
+        width: max(50%,300PX);
+    }
+    #div1
+    {
+        background-color: yellow;
+        height: 100px;
+        width: min(90%,300px);
+    }
+</style>
+<body>
+    <h1>the cal() function</h1>
+    <p>Create a div that stretches across the window, with a 50px gap between both sides of the div and the edges of the window:</p>
+    <div>
+        some text:
+    </div>
+    <BR></BR>
+    <h1>the max() function</h1>
+    <p>Use max() to set the width of #div1 to whichever value is largest, 50% or 300px:</p>
+    <div id="a">
+        some text
+    </div><BR></BR>
+    <p style="padding-top: 90px; text-align:left;">bye bye</p>
+    <br><br>
+    <h1>The min() Function</h1>
+
+<p>Use min() to set the width of #div1 to whichever value is smallest, 50% or 300px:</p>
+
+<div id="div1">Some text...</div>
+
+</body>
+</html>

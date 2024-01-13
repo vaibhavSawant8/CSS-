@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul.a
+        {
+            list-style-type: disc;
+            list-style-image: url('/Images/gradient.jpg');
+            height: auto;
+            width: auto;
+        }
+        ul.b
+        {
+            list-style-type: circle;
+        }
+        ul.c
+        {
+            list-style-type: square;
+            list-style: square inside url('/Images/gradient.jpg');
+            list-style-position: outside;
+
+        }
+        ol.e
+        {
+            list-style-type: upper-alpha;
+            padding: 20px;
+            background: #ff9999;
+        }
+        ol.f
+        {
+            list-style-type:upper-roman;
+            padding: 20px;
+            background: #3399ff;
+        }
+        ol.g
+        {
+            list-style-type:upper-latin;
+            padding: 15px;
+            background: #cce55f;
+        }
+        ul
+        {   
+            /* list-style-image: url('/Images/3.jpg' ); */
+        }
+        .e li
+        {
+            background: rgb(45, 45, 83);
+            padding: 5px;
+            margin-left: 30px;
+            margin: 2px;
+            color: red;
+        }
+        .f li
+        {
+            background-color: cyan;
+            padding: 10px;
+            margin-left:55px;
+            margin: 5px;
+            color: black;
+        }
+        .g li
+        {
+            background-color: rgba(211, 0, 222, 0.848);
+            padding: 10px;
+            margin-left:55px;
+            margin: 5px;
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>lists</h1>
+    <p>example of ul</p>
+    <ul class="a">
+        <li>cofee</li>
+        <li>tee</li>
+        <li>coca cola <dd>bread</dd> <dd>mgi</dd></li>
+    </ul>
+    <ul class="b">
+        <li>tea <dd>black</dd> <dd>green</dd></li>
+        <li>cofee</li>
+        <li>mango</li>
+    </ul>
+    <ul class="c">
+        <li>tea <dd>black</dd> <dd>green</dd></li>
+        <li>cofee</li>
+        <li>mango</li>
+    </ul>
+    <h1>ordered list</h1>
+    <ol class="e">
+        <li>yummy</li>
+        <li>tee</li>
+        <li>coca cola <dd>bread</dd> <dd>mgi</dd></li>
+    </ol>
+    <ol class="f">
+        <li>cofee</li>
+        <li>tee</li>
+        <li>coca cola <dd>bread</dd> <dd>mgi</dd></li>
+    </ol>
+    <ol class="g">
+        <li>
+            <li>cofee</li>
+            <li>tee</li>
+            <li>coca cola <dd>bread</dd> <dd>mgi</dd></li>
+        </li>
+    </ol>
+    <hr>
+    <ul>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+    </ul>
+    
+</body>
+</html>
